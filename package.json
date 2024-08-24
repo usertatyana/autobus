@@ -1,0 +1,21 @@
+{
+  "name": "autobus",
+  "version": "1.0.0",
+  "description": "Онлайн расписание автобусов",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bus",
+    "kapina"
+  ],
+  "type": "module",
+  "author": "Kapina Tatyana",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "luxon": "^3.5.0"
+  }
+}
