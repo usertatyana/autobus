@@ -6,10 +6,8 @@ import { DateTime } from "luxon";
 
 const __filename = url.fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
 const timeZone = "UTC";
 const port = 3000;
-
 const app = express();
 
 const loadBuses = async () => {
